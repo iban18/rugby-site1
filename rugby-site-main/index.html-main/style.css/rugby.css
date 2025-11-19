@@ -2,9 +2,7 @@
     box-sizing: border-box;
 }
 
-html {
-    font-size: 16px;
-}
+
 
 body {
     margin: 0;
@@ -14,20 +12,27 @@ body {
 }
 
 
-.outil ul {
-
-    list-style: none;
+.outil  {
+    
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: #FF7F00;
+    background-color: #ff004c;
+
+   
+    position: sticky;  
+    top: 0;            
+    z-index: 1000;     
+    width: 100%;       
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
 }
 
 .outil ul a {
     text-decoration: none;
     margin-left: 15px;
     color: white;
+    
 }
 
 
@@ -53,7 +58,7 @@ body {
 
 
 .haut {
-    background-color: #df8d3c;
+    background-color: #f80404;
     color: #FFF;
     padding: 0.6rem 0.8rem;
     border-radius: 8px;
@@ -82,7 +87,7 @@ body {
     margin: 1rem auto;
     max-width: 900px;
     padding: 1rem;
-    background-color: #df8d3c;
+    background-color: #f80404;
     color: #FFF;
     border-radius: 0.8rem;
     font-size: clamp(1.25rem, 3.5vw, 3rem);
@@ -95,7 +100,7 @@ body {
     margin: 1rem auto;
     max-width: 900px;
     padding: 1rem;
-    background-color: #df8d3c;
+    background-color: #f80404;
     color: #FFF;
     border-radius: 0.8rem;
     font-size: clamp(1.25rem, 3.5vw, 3rem);
@@ -117,7 +122,7 @@ body {
 
 .ligner {
     width: 100%;
-    border: 2px solid #FF7F00;
+    border: 2px solid #f80404;
 }
 
 .text {
@@ -186,11 +191,37 @@ body {
 
 
 .footer {
-    background-color: #242424;
+    background-color: #7c7c7c;
 
 
 }
 
 .score {
     color: black;
+}
+
+
+
+.jaune{
+        background-color: yellow;
+        width: 45px;
+        color: black;
+}
+
+.rouge{
+        background-color: red;
+        width: 50px;
+        color: black;
+}
+
+.bleu{
+        background-color: blue;
+        width: 35px;
+        color: black;
+}
+
+.blanc{
+        background-color: white;
+        width: 45px;
+        color: black;
 }
