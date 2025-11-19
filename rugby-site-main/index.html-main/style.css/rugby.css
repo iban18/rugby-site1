@@ -1,17 +1,39 @@
-/* base responsive */
-* { box-sizing: border-box; }
-html { font-size: 16px; } /* changez si besoin */
-body {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  font-family: Arial, sans-serif;
+* {
+    box-sizing: border-box;
 }
 
-/* boutons / étiquettes */
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+.outil ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #FF7F00;
+}
+
+.outil ul a {
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+
+
+
+
 .page {
-    background-color: #00ABE4;
-    color: #FFF;
     padding: 0.4rem 0.7rem;
     border-radius: 8px;
     display: inline-block;
@@ -20,13 +42,18 @@ body {
     font-size: 1.4rem;
     text-decoration: none;
     margin-right: 10px;
-    
-}
-.page:hover { transform: scale(1.05); background-color: #007BBF; }
 
-/* header */
+
+}
+
+.page:hover {
+    transform: scale(1.05);
+    background-color: rgb(53, 51, 51);
+}
+
+
 .haut {
-    background-color: #00ABE4;
+    background-color: #df8d3c;
     color: #FFF;
     padding: 0.6rem 0.8rem;
     border-radius: 8px;
@@ -34,12 +61,13 @@ body {
     margin: 3.5rem auto 1.5rem;
     text-align: center;
     position: relative;
+    box-shadow: 0 0 10px white
 }
 
-/* box */
+
 .box {
-    margin: 2rem;
-    background-color: #E9F1FA;
+    margin: 100px;
+    background-color: #EAEAEA;
     color: #666;
     padding: 2rem;
     border-radius: 1rem;
@@ -48,19 +76,34 @@ body {
     font-size: 1.125rem;
 }
 
-/* centrer sections qui avaient margin-left/right:35% */
-.histoire, .propos {
+
+.histoire {
     display: block;
     margin: 1rem auto;
     max-width: 900px;
     padding: 1rem;
-    background-color: #00ABE4;
+    background-color: #df8d3c;
     color: #FFF;
     border-radius: 0.8rem;
-    font-size: clamp(1.25rem, 3.5vw, 3rem); /* adaptatif */
+    font-size: clamp(1.25rem, 3.5vw, 3rem);
+    margin-top: 0px;
+
 }
 
-/* images / affichage */
+.propos {
+    display: block;
+    margin: 1rem auto;
+    max-width: 900px;
+    padding: 1rem;
+    background-color: #df8d3c;
+    color: #FFF;
+    border-radius: 0.8rem;
+    font-size: clamp(1.25rem, 3.5vw, 3rem);
+
+
+}
+
+
 .banniere {
     width: 100%;
     max-width: 1200px;
@@ -72,7 +115,10 @@ body {
     border: 4px solid black;
 }
 
-.ligner { width: 100%; border: 2px solid black; }
+.ligner {
+    width: 100%;
+    border: 2px solid #FF7F00;
+}
 
 .text {
     text-align: start;
@@ -86,26 +132,43 @@ body {
 
 .affiche {
     width: 100%;
-    max-width: 700px;
+    max-width: 400px;
     height: auto;
     margin: 1rem auto;
     border: 4px solid black;
     border-radius: 15px;
 }
 
-/* petites améliorations */
-.titre { font-size: clamp(1.5rem, 4vw, 3.25rem); }
-.a { text-decoration: none; color: inherit; }
-.a:hover { text-decoration: underline; }
 
-/* hover link */
-.link { color: red; }
-.link:hover { transform: scale(1.05); color: rgb(162,162,255); }
+.titre {
+    font-size: clamp(1.5rem, 4vw, 3.25rem);
+    background-color: #242424;
+    height: 300px;
+}
+
+.a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.a:hover {
+    text-decoration: underline;
+}
+
+
+.link {
+    color: red;
+}
+
+.link:hover {
+    transform: scale(1.05);
+    color: rgb(162, 162, 255);
+}
 
 
 
 
-.face{
+.face {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -115,7 +178,19 @@ body {
 }
 
 
-.face:hover{
+.face:hover {
     transform: scale(1.2);
-    
+    box-shadow: 0 0 10px white;
+
+}
+
+
+.footer {
+    background-color: #242424;
+
+
+}
+
+.score {
+    color: black;
 }
