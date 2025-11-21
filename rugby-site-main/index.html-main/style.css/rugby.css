@@ -91,7 +91,7 @@ body {
     color: #FFF;
     border-radius: 0.8rem;
     font-size: clamp(1.25rem, 3.5vw, 3rem);
-    margin-top: 0px;
+    margin-top: 50px;
 
 }
 
@@ -145,7 +145,7 @@ body {
 .titre {
     font-size: clamp(1.5rem, 4vw, 3.25rem);
     background-color: #242424;
-    height: 300px;
+    background-image: linear-gradient(to bottom, #eb1639, #000000)
 }
 
 .a {
