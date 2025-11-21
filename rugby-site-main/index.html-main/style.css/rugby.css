@@ -120,10 +120,7 @@ body {
     border: 4px solid black;
 }
 
-.ligner {
-    width: 100%;
-    border: 2px solid #f80404;
-}
+
 
 .text {
     text-align: start;
@@ -190,16 +187,33 @@ body {
 }
 
 
-.footer {
-    background-color: #7c7c7c;
 
 
+
+
+
+.footer i {
+    font-size: 40px; 
+    color: #000000;  
+    transition: color 0.3s ease; 
+    
 }
 
+.footer i:hover {
+    color: #555; 
+}
 .score {
     color: black;
 }
 
+.footer a {
+    
+    margin: 5px; 
+    
+    
+    display: inline-block; 
+    margin-top: 5px;  
+}
 
 
 .jaune{
@@ -224,4 +238,54 @@ body {
         background-color: white;
         width: 45px;
         color: black;
+}
+
+
+
+.drapeau{
+    width: 50px;
+    margin-right: 15px;
+}
+
+.fa-brands {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: scale(1.1);
+    margin: 3px;
+}
+
+
+.social-link i {       
+    width: 40px;           /* Force la largeur du bloc à 30px */
+    height: 30px;          
+    
+    /* Les lignes ci-dessous assurent que l'icône reste bien centrée */
+    display: inline-flex;  
+    justify-content: center;
+    align-items: center;
+    
+    /* Conserve ta couleur */
+    color: #000000; 
+}
+
+
+
+.footer {
+    text-align: center;
+    padding: 0; 
+}
+
+
+.contenu-gris {
+    background-color: #e0e0e0; 
+    padding: 20px 0;          
+    margin-top: 0;             
+}
+
+
+.ligner {
+    border-top: 5px solid red; 
+    margin: 0;                 
+    margin-bottom: 0;         
 }
