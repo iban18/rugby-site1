@@ -142,6 +142,13 @@ body {
 }
 
 
+.affiche:hover {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.02);
+    box-shadow: 0 0 15px black;
+}
+
 .titre {
     font-size: clamp(1.5rem, 4vw, 3.25rem);
     background-color: #242424;
@@ -216,32 +223,6 @@ body {
 }
 
 
-.jaune{
-        background-color: yellow;
-        width: 45px;
-        color: black;
-}
-
-.rouge{
-        background-color: red;
-        width: 50px;
-        color: black;
-}
-
-.bleu{
-        background-color: blue;
-        width: 35px;
-        color: black;
-}
-
-.blanc{
-        background-color: white;
-        width: 45px;
-        color: black;
-}
-
-
-
 .drapeau{
     width: 50px;
     margin-right: 15px;
@@ -288,4 +269,43 @@ body {
     border-top: 5px solid red; 
     margin: 0;                 
     margin-bottom: 0;         
+}
+
+/* --- TRANSITION "SWIPE" SPORTIF --- */
+
+/* 1. La page elle-même fait un petit zoom arrière subtil pour la profondeur */
+body {
+    animation: pageRecul 1s ease-out;
+}
+
+/* 2. Le balayage rouge qui passe par dessus */
+body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #D32F2F; /* Un rouge Rugby puissant */
+    z-index: 9999; /* Au-dessus de tout */
+    
+    /* L'animation du balayage */
+    animation: swipeScreen 0.8s cubic-bezier(0.77, 0, 0.175, 1) forwards;
+    
+    /* Une petite inclinaison pour faire dynamique/sportif */
+    transform: skewX(-10deg) translateX(-10%); 
+    transform-origin: left;
+}
+
+/* --- LES MOUVEMENTS --- */
+
+/* Le rectangle rouge s'en va vers la droite */
+@keyframes swipeScreen {
+    0% {
+        transform: skewX(-10deg) translateX(0%); /* Il couvre l'écran */
+    }
+    100% {
+        transform: skewX(-10deg) translateX(120%); /* Il part loin à droite */
+        display: none; /* On le cache une fois fini */
+    }
 }
