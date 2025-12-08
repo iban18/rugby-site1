@@ -26,13 +26,12 @@ body {
     top: 0;            
     z-index: 1000;     
     width: 100%;       
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2); 
 }
 
 .outil ul a {
     text-decoration: none;
     margin-left: 15px;
-    color: white;
+    color: black;
     
 }
 
@@ -54,7 +53,7 @@ body {
 
 .page:hover {
     transform: scale(1.05);
-    background-color: rgba(245, 245, 245, 0.295);
+    background-color: rgba(197, 27, 27, 0.295);
 }
 
 
@@ -160,7 +159,7 @@ body {
 
 
 .link {
-    color: red;
+    color:  black;
 }
 
 .link:hover {
