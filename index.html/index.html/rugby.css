@@ -19,7 +19,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: flex-end;
-    background-color: #ff004c;
+    background-color: #f81919;
 
 
     position: sticky;
@@ -156,7 +156,7 @@ body {
 .titre {
     font-size: clamp(1.5rem, 4vw, 3.25rem);
     background-color: #242424;
-    background-image: linear-gradient(to bottom, #eb1639, #000000)
+    background-image: linear-gradient(to bottom, #f80404, #000000)
 }
 
 .a {
