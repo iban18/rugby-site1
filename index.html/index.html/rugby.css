@@ -322,66 +322,40 @@ body::after {
 
 
 
-@media screen and (max-width: 768px) {
+@media all and (max-width: 1024px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 10% 0;
+  }
 
-    /* --- NAVIGATION --- */
-    /* On transforme le menu horizontal en liste verticale */
-    .outil ul {
-        flex-direction: column; /* Empile les liens */
-        padding: 10px;
-        align-items: center; /* Centre les liens */
-    }
+  nav {
+    text-align: center;
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+@media all and (max-width: 600px) {
+  .box {
+    margin: 20px;
+    padding: 1rem;
+    font-size: 1rem;
+    align-items: center;
+  }
 
-    .outil li {
-        margin: 5px 0; /* Un peu d'espace entre chaque lien */
-        width: 100%; /* Le lien prend toute la largeur pour être facile à cliquer */
-        text-align: center;
-    }
+  .banniere {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+    align-items: center;
+  }
 
-    .outil a.page {
-        display: block; /* Rend toute la zone cliquable */
-        padding: 10px;
-        font-size: 1.1rem; /* Texte un peu plus gros pour les doigts */
-    }
-
-    /* --- CONTENU PRINCIPAL (.box) --- */
-    /* Les boîtes ne doivent plus avoir de largeur fixe, elles prennent tout l'écran */
-    .box {
-        width: 90% !important; /* Force la largeur à 90% de l'écran */
-        margin: 15px auto; /* Centre la boîte avec un peu de marge */
-        padding: 15px; /* Moins de remplissage pour gagner de la place */
-    }
-
-    /* --- TITRES --- */
-    /* On réduit la taille des titres pour qu'ils ne cassent pas la page */
-    h1.haut {
-        font-size: 1.8rem; /* Plus petit */
-        padding: 10px;
-    }
-
-    h2.histoire {
-        font-size: 1.4rem;
-    }
-
-    /* --- TEXTE ET LISTES --- */
-    .text {
-        font-size: 1rem; /* Taille standard pour la lecture */
-        text-align: justify; /* Justifie le texte pour faire propre */
-        padding-left: 0; /* Enlève le décalage à gauche s'il y en a */
-    }
-    
-    /* --- IMAGES SPÉCIFIQUES --- */
-    /* Si vous avez des images flottantes, on les remet au centre */
-    .affiche, .drapeau {
-        float: none; /* Annule l'alignement à gauche/droite */
-        display: block;
-        margin: 0 auto 15px auto; /* Centre l'image */
-        width: 100%; /* Prend toute la largeur disponible */
-    }
-    
-    /* --- FOOTER --- */
-    .footer {
-        flex-direction: column;
-        padding: 20px;
-    }
+  .text {
+    width: calc(100% - 1rem);
+    padding: 0.5rem;
+    font-size: 1rem;
+    align-items: center;
+  }
 }
