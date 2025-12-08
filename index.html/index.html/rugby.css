@@ -67,6 +67,7 @@ body {
     text-align: center;
     position: relative;
     box-shadow: 0 0 10px white
+
 }
 
 
@@ -74,11 +75,10 @@ body {
     margin: 100px;
     background-color: #EAEAEA;
     color: #666;
-    padding: 2rem;
-    border-radius: 1rem;
-    text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.125rem;
+    align-items: center;
+    text-align: center;
 }
 
 
@@ -134,11 +134,11 @@ body {
 
 .affiche {
     width: 100%;
-    max-width: 400px;
+
     height: auto;
-    margin: 1rem auto;
     border: 4px solid black;
     border-radius: 15px;
+    align-items: center;
 }
 
 
@@ -339,7 +339,7 @@ body::after {
 }
 @media all and (max-width: 600px) {
   .box {
-    margin: 20px;
+    margin: 25px;
     padding: 1rem;
     font-size: 1rem;
     align-items: center;
