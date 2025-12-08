@@ -72,13 +72,17 @@ body {
 
 
 .box {
+    text-align: center;
+    display: block;
+  
     margin: 100px;
+    padding: 1.5rem;
     background-color: #EAEAEA;
     color: #666;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.125rem;
-    align-items: center;
-    text-align: center;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -133,12 +137,13 @@ body {
 }
 
 .affiche {
-    width: 100%;
-
+    width: 500px;
+    height: 150px;
     height: auto;
     border: 4px solid black;
     border-radius: 15px;
     align-items: center;
+    margin: 30px;
 }
 
 
