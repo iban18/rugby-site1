@@ -384,10 +384,22 @@ body::after {
         margin: 30px;
     }
 }
+
 @media all and (max-width: 400px) {
     .affiche {
         width: 250px;
         height: 150px;
+        height: auto;
+        margin: 20px;
+    }
+}
+
+
+
+@media all and (max-width: 300px) {
+    .affiche {
+        width: 150px;
+        height: 120px;
         height: auto;
         margin: 20px;
     }
