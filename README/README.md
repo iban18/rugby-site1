@@ -19,5 +19,5 @@
 ## Animation du site 
 
 <div align="center">
-  <video controls src="video_site.mp4.mp4" title="Démonstration du site" width="800"></video>
+  <video controls src="video_site.mp4" title="Démonstration du site" width="800"></video>
 </div>
