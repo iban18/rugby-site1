@@ -4,16 +4,16 @@
 
 |  |  |
 |:---:|:---:|
-| <img src="Capture d'écran 2025-12-09 155931.png" width="400"> | <img src="Capture d'écran 2025-12-09 160005.png" width="400"> |
-| <img src="Capture d'écran 2025-12-09 160022.png" width="400"> | <img src="Capture d'écran 2025-12-09 160036.png" width="400"> |
+| <img src="image_1.png" width="400"> | <img src="image_2.png" width="400"> |
+| <img src="image_3.png" width="400"> | <img src="image_4.png" width="400"> |
 
 
 ## Vue Mobile 
 
 |  |  |
 |:---:|:---:|
-| <img src="Capture d'écran 2025-12-09 155632.png" width="300"> | <img src="Capture d'écran 2025-12-09 155752.png" width="300"> |
-| <img src="Capture d'écran 2025-12-09 155801.png" width="300"> | <img src="Capture d'écran 2025-12-09 155814.png" width="300"> |
+| <img src="phone_1.png" width="300"> | <img src="phone_2.png" width="300"> |
+| <img src="phone_3.png" width="300"> | <img src="phone_4.png" width="300"> |
 
 
 ## Animation du site 
