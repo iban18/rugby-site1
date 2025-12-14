@@ -18,3 +18,8 @@
 
 ## Animation du site 
 
+<div align="center">
+  <a href="LIEN_YOUTUBE_ICI">
+    <img src="[https://img.youtube.com/vi/ID_VIDEO/0.jpg](https://www.youtube.com/watch?v=IBmUwlWEaK4)" alt="Démonstration" width="800">
+  </a>
+</div>
