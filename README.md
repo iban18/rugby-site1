@@ -19,5 +19,5 @@
 ## Animation du site 
 
 <div align="center">
-  <video controls src="2025-12-09 16-05-43.mp4" title="Démonstration du site" width="800"></video>
+  <video controls src="video_1.mov" title="Démonstration du site" width="800"></video>
 </div>
