@@ -18,6 +18,3 @@
 
 ## Animation du site 
 
-<div align="center">
-  <video controls src="video_1.mov" title="Démonstration du site" width="800"></video>
-</div>
