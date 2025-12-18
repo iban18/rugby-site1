@@ -8,11 +8,11 @@
 
 |  |  |
 |:---:|:---:|
-| <img src="README_img/image_1.png" width="400"> | <img src="README_img/image_2.png" width="400"> |
+| <img src="README_img/image1_rug.png" width="400"> | <img src="README_img/image_2.png" width="400"> |
 | <img src="README_img/image_3.png" width="400"> | <img src="README_img/image_4.png" width="400"> |
 
 
-## Vue Mobile 
+## Vue Mobile  
 
 |  |  |
 |:---:|:---:|
@@ -40,6 +40,8 @@ https://github.com/user-attachments/assets/4716671f-2c12-4449-8ae6-d77f3be897c6
 
 
 # WAVE 
+
+<img src="README_img/image_wave.png" width="300"> 
 
 
 # WCAG.0AA
