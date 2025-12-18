@@ -223,15 +223,19 @@ body {
 
 
 
-.footer i {
+/* Footer icons: use spans (Font Awesome) for accessible markup */
+.footer span {
     font-size: 40px;
     color: #000000;
-    transition: color 0.3s ease;
-
+    transition: color 0.18s ease, transform 0.18s ease;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.footer i:hover {
+.footer span:hover {
     color: #555;
+    transform: translateY(-2px);
 }
 
 .score {
@@ -253,28 +257,31 @@ body {
     margin-right: 15px;
 }
 
-.fa-brands {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    transform: scale(1.1);
-    margin: 3px;
+/* reset heavy sizing from icon library and control sizes via .social-link */
+.fa-brands, .fa-solid, .fa-regular {
+    width: auto; height: auto; margin: 0; transform: none;
 }
 
 
-.social-link i {
-    width: 40px;
-    /* Force la largeur du bloc à 30px */
-    height: 30px;
-
-    /* Les lignes ci-dessous assurent que l'icône reste bien centrée */
+.social-link {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-
-    /* Conserve ta couleur */
-    color: #000000;
+    justify-content: center;
+    width: 83px;
+    height: 83px;
+    border-radius: 50%;
+    background: transparent;
+    margin: 0 2px;
+    text-decoration: none;
 }
+
+.social-link span {
+    color: #000;
+    font-size: 43px;
+    line-height: 1;
+}
+
+.social-link:hover { filter: brightness(0.9); }
 
 
 
@@ -286,8 +293,12 @@ body {
 
 .contenu-gris {
     background-color: #e0e0e0;
-    padding: 20px 0;
+    padding: 18px 0;
     margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 
@@ -460,13 +471,14 @@ body::after {
         padding: 0.8rem;
     }
 
-    .footer i {
-        font-size: 30px;
+    .social-link {
+        width: 75px;
+        height: 75px;
+        margin: 0 2px;
     }
 
-    .social-link i {
-        width: 30px;
-        height: 24px;
+    .social-link span {
+        font-size: 41px;
     }
 
     .contenu-gris {
@@ -517,13 +529,14 @@ body::after {
         margin-right: 0;
     }
 
-    .footer i {
-        font-size: 25px;
+    .social-link {
+        width: 69px;
+        height: 69px;
+        margin: 0 2px;
     }
 
-    .social-link i {
-        width: 25px;
-        height: 20px;
+    .social-link span {
+        font-size: 37px;
     }
 }
 
@@ -561,5 +574,14 @@ body::after {
     .outil ul a {
         margin-left: 2px;
         margin-right: 0;
+    }
+    .social-link {
+        width: 61px;
+        height: 61px;
+        margin: 0 2px;
+    }
+
+    .social-link span {
+        font-size: 33px;
     }
 }
