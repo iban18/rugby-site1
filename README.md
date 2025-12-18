@@ -33,10 +33,9 @@ https://github.com/user-attachments/assets/4716671f-2c12-4449-8ae6-d77f3be897c6
 
 ## Validations : 
 
-# W3C:HTML 
+# W3C:HTML/CSS
 
-
-# W3C:CSS
+<img src="README_img/W3C.png" width="300"> 
 
 
 # WAVE 
