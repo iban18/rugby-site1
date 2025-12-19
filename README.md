@@ -16,8 +16,8 @@
 
 |  |  |
 |:---:|:---:|
-| <img src="README_img/phone_1.png" width="300"> | <img src="README_img/phone_2.png" width="300"> |
-| <img src="README_img/phone_3.png" width="300"> | <img src="README_img/phone_4.png" width="300"> |
+| <img src="README_img/phone1.png" width="300"> | <img src="README_img/phone2.png" width="300"> |
+| <img src="README_img/phone3.png" width="300"> | <img src="README_img/phone4.png" width="300"> |
 
 
 ## Animation du site 
