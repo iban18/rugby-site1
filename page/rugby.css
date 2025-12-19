@@ -289,8 +289,14 @@ ul {
     height: 83px;
     border-radius: 50%;
     background: transparent;
-    margin: 0 2px;
+    margin: 0 -18px;
     text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.social-link:nth-child(2) {
+    z-index: 2;
 }
 
 .social-link span {
@@ -316,7 +322,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0;
 }
 
 
