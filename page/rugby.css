@@ -241,7 +241,7 @@ ul {
 
 
 
-/* Footer icons: use spans (Font Awesome) for accessible markup */
+
 .footer span {
     font-size: 40px;
     color: #000000;
@@ -332,14 +332,11 @@ ul {
     margin-bottom: 0;
 }
 
-/* --- TRANSITION "SWIPE" SPORTIF --- */
 
-/* 1. La page elle-même fait un petit zoom arrière subtil pour la profondeur */
 body {
     animation: pageRecul 1s ease-out;
 }
 
-/* 2. Le balayage rouge qui passe par dessus */
 body::after {
     content: "";
     position: fixed;
@@ -348,32 +345,27 @@ body::after {
     width: 100%;
     height: 100%;
     background-color: #D32F2F;
-    /* Un rouge Rugby puissant */
+    
     z-index: 9999;
-    /* Au-dessus de tout */
-
-    /* L'animation du balayage */
+    
     animation: swipeScreen 0.8s cubic-bezier(0.77, 0, 0.175, 1) forwards;
 
-    /* Une petite inclinaison pour faire dynamique/sportif */
+    
     transform: skewX(-10deg) translateX(-10%);
     transform-origin: left;
 }
 
-/* --- LES MOUVEMENTS --- */
 
-/* Le rectangle rouge s'en va vers la droite */
 @keyframes swipeScreen {
     0% {
         transform: skewX(-10deg) translateX(0%);
-        /* Il couvre l'écran */
+        
     }
 
     100% {
         transform: skewX(-10deg) translateX(120%);
-        /* Il part loin à droite */
         display: none;
-        /* On le cache une fois fini */
+        
     }
 }
 
