@@ -54,7 +54,7 @@ body {
     padding: 0;
 }
 
-/* Nettoyer les listes de contenu */
+
 .text {
     list-style: none;
 }
@@ -275,7 +275,6 @@ ul {
     margin-right: 15px;
 }
 
-/* reset heavy sizing from icon library and control sizes via .social-link */
 .fa-brands, .fa-solid, .fa-regular {
     width: auto; height: auto; margin: 0; transform: none;
 }
