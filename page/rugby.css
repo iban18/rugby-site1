@@ -414,6 +414,12 @@ body::after {
         padding: 0;
     }
 
+    .outil ul, .outil ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
     .outil ul a {
         margin-left: 10px;
         margin-right: 5px;
@@ -448,6 +454,13 @@ body::after {
     .box {
         margin: 1rem auto;
         padding: 1rem;
+        font-size: 0.95rem;
+    }
+
+    .text {
+        list-style: none;
+        width: calc(100% - 1rem);
+        padding: 0.5rem;
         font-size: 0.95rem;
     }
 
@@ -521,6 +534,12 @@ body::after {
         font-size: 0.9rem;
     }
 
+    .text {
+        list-style: none;
+        margin: 0.8rem auto;
+        padding: 0.8rem;
+    }
+
     .affiche {
         width: clamp(90px, 90vw, 300px);
         margin: clamp(10px, 3vw, 15px);
@@ -569,6 +588,12 @@ body::after {
         margin: 0.5rem auto;
         padding: 0.7rem;
         font-size: 0.85rem;
+    }
+
+    .text {
+        list-style: none;
+        margin: 0.5rem auto;
+        padding: 0.7rem;
     }
 
     .affiche {
