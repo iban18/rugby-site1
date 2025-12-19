@@ -1,7 +1,9 @@
 ### SAE 14 : HTML - CSS
 
 
-### Lien vers le site : https://iban18.github.io/rugby-site1/
+### 🌐  Lien vers le site : https://iban18.github.io/rugby-site1/
+
+### 🔗 Lien du Trello : https://trello.com/invite/b/6911f66af65a794677c66915/ATTI69072cfd1c66bd641da55d04bea76f359C0A42D4/mon-tableau-trello
 
 
 ## Visuel de la page 
